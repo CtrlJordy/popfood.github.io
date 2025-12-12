@@ -1,0 +1,36 @@
+body {
+  background-color: #ff4d6d;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: Nunito, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+#headertext span {
+  color: lime;
+}
+
+@media (max-width: 1575px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
